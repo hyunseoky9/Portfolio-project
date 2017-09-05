@@ -4,6 +4,6 @@ This repository holds files necessary to start up Hyun Seok Yoon's pseudo-portfo
 
 # How to view
 
-Download or Clone all the folders and files into a single directory. Then, open up the '''portfolio.html'''
+Download or Clone all the folders and files into a single directory. Then, open up the ```portfolio.html``` and you should be able to open up the site with a browser of your choice.
 
 **This project was created by Hyun Seok Yoon for the Udacity FUll Stack Web Developer Nanodegree Program.**
