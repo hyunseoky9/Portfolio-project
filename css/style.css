@@ -21,32 +21,31 @@ header {
 	height: 20%;
 }
 
-.logo {
-	max-width: 100px;
-	max-height: 50%;
-	margin: auto;
+@media screen and (max-width: 995px) {
+	.logo {
+		margin-right: 42.5%;
+		margin-left: 42.5%;
+		width: 15%;
+	}
+	.name{
+		text-align: center;
+	}
 }
 
+@media screen and (min-width: 996px) {
+	.logo {
+		width: 50%;
+		margin: 0px 25px 0px 25px;
+	}
+	.name{
+		text-align: right;
+	}
+}
 .name {
 	height: 100%;
-	text-align: right;
 	padding-right: 1%;
 }
 
-
-@media screen and (max-width: 695px) {
-	.logo {width: 12%;}
-	.name {width: 80%;}
-	.myname {font-size: 150%;}
-	.mytitle {font-size: 90%;}
-}
-
-@media screen and (min-width: 696px) {
-	.logo {	width: 25%;}
-	.name { width: 75%;}
-	.myname {font-size: 200%;}
-	.mytitle {font-size: 100%;}
-}
 
 .myname {
 	font-family: Roboto, Arial, Gadget, sans-serif;
@@ -61,12 +60,6 @@ header {
 	margin-bottom: 3%;
 }
 
-.mainpic {
-	margin-right: 10%;
-	margin-left: 10%;
-	width: 80%;
-}
-
 /**************************************************
 ***************************************************
 **************************************************/
@@ -78,6 +71,11 @@ hr {
 	margin-top: 0px;
 }
 
+.mainpic {
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+}
 
 /********************************
 ***********feature***************
