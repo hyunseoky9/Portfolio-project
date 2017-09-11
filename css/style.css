@@ -30,15 +30,20 @@ header {
 	.name{
 		text-align: center;
 	}
+	.myname{
+		font-size: 190%;
+	}
 }
 
 @media screen and (min-width: 996px) {
 	.logo {
-		width: 50%;
-		margin: 0px 25px 0px 25px;
+		width: 40%;
+		margin-left: 30%;
+		margin-right: 30%;
 	}
 	.name{
 		text-align: right;
+
 	}
 }
 .name {
@@ -63,6 +68,9 @@ header {
 /**************************************************
 ***************************************************
 **************************************************/
+.row {
+	width: 100%;
+}
 
 hr {
 	height:2px;
@@ -86,34 +94,13 @@ hr {
 	font-family: Arial, sans-serif;
 }
 
-.row {
-	margin: auto;
-}
-
-.col-md-4 {
-	margin: auto;
-}
-.feat-img {
-		height: 400px;
-		width: 400px;
-}
-
-.feat-title-container {
+.feat-title {
 	text-align: center;
 }
 
-.feat-title {
-	font-size: 200%;
-	color: #2d3c49;
+a {
 	font-family: 'Open Sans', sans-serif;
-	text-decoration: undecorated;
-}
-
-@media screen and (max-width: 750px) {
-	.feat-img {height: 200px; width: 200px;}
-	.feat-title {font-size: 100%; min-width: 48px;}
-}
-
-@media screen and (min-width: 990px) {
-	.feat-img {height: 300px; width: 300px;}
+	text-decoration: none;
+	font-size: 180%;
+	color: #2d3c49;
 }
